@@ -10,6 +10,6 @@ jobs:
     name: Build and publish
     runs-on: ubuntu-latest
     steps:
-      - uses: vthiery/steampipe-plugin-build-push-action@46afca6
+      - uses: vthiery/steampipe-plugin-build-push-action@46afca64022517e4f3ed8b7c238e492d54a8d8ba
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
